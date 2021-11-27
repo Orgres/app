@@ -1,0 +1,12 @@
+.App {
+    padding: 10px;
+}
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.14)
+}

@@ -1,0 +1,11 @@
+**/.DS_Store
+**/package-lock.json
+**/dist
+**/.env
+**/node_modules
+
+mobileapp/android
+mobileapp/ios
+mobileapp/build
+
+backend/images/**

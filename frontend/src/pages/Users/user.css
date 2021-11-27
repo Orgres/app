@@ -1,0 +1,4 @@
+.users__list {
+    height: calc(100vh - 70px - 20px - 2rem);
+    overflow-y: auto;
+}

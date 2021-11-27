@@ -1,0 +1,55 @@
+.AddPhoto {
+  margin: 5px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  display: flex;
+  position: relative;
+}
+.image {
+  flex: 1;
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+}
+@media (max-width: 330px){
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+  .AddPhoto {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (min-width: 480px){
+  .image {
+    width: 150px;
+    height: 150px;
+  }
+  .AddPhoto {
+    width: 150px;
+    height: 150px;
+  }
+}
+.iconBox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  z-index: -1;
+}
+.removeIconContainer {
+  position: absolute;
+  color: #fff;
+  right: -8px;
+  top: -8px;
+}
+.removeIcon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #cf3c4f	;
+}

@@ -1,0 +1,12 @@
+.PointPage {
+  text-align: center;
+}
+
+.PointPage-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.PointPage-select {
+  margin: 10px 0;
+}
